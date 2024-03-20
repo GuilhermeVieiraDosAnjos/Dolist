@@ -55,8 +55,8 @@ const Home = () => {
     <div className="h-screen overflow-x-hidden overflow-y-auto">
       <div className="h-screen  md:flex justify-center items-center ">
         <div className="h-screen w-screen bg-white md:h-5/6 md:w-2/5 md:rounded-lg p-2 ">
-          <div className="flex justify-between">
-            <h1 className="ml-40 text-center font-montserrat">DoList</h1>
+          <div className="flex items-center m-1 justify-between">
+            <h1 className="ml-40 text-center font-montserrat md:ml-72">DoList</h1>
             <button className="md:self-end">
               <MdExitToApp onClick={handleLogout}/>
             </button>

@@ -45,7 +45,7 @@ const TodoForm = ({ addTodo }) => {
         </select>{" "}
         <button
           onClick={handleSubmit}
-          className="bg-softGray md:hover:bg-slate-300 ease-in-out duration-300 p-1 rounded-md font-montserrat w-1/3  "
+          className="bg-softBlue md:hover:bg-slate-300 ease-in-out duration-300 p-1 rounded-md font-montserrat w-1/3  "
         >
           {" "}
           Cadastrar sua tarefa{" "}
